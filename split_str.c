@@ -15,7 +15,7 @@ char *split_str(char *str_to_split)
 	if (strcmp(op_code, "push") == 0)
 	{
 		argument = strtok(NULL, " \n\t");
-		is_digit(argument);
+		is_digit(op_code);
 		var.node_data = atoi(argument);
 	}
 	return (op_code);

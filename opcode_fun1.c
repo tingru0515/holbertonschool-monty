@@ -71,7 +71,7 @@ void op_pint(stack_t **stack, unsigned int line_number)
 		handle_dlist_head((*stack));
 		exit(EXIT_FAILURE);
 	}
-	printf("%d\n", ((*satck))->n);
+	printf("%d\n", ((*stack))->n);
 }
 
 /**
