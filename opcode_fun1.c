@@ -53,3 +53,48 @@ void op_pall(stack_t **stack, unsigned int line_number)
 		printer_aux = printer_aux->next;
 	}
 }
+
+/**
+* op_pint - prints the value at the top of the stack
+* @stack: pointer to the head of the stack
+* @line_number: number of the current line
+*
+* Return: void
+*/
+void op_pint(stack_t **stack, unsigned int line_number)
+{
+	if ((*stack) == NULL)
+	{
+		fprintf(stderr, "L%d: can't pint, stack empty\n", line_number);
+		free(var.getl_info);
+		fclose(var.fp_struct);
+		handle_dlist_head((*stack));
+		exit(EXIT_FAILURE);
+	}
+	printf("%d\n", ((*satck))->n);
+}
+
+/**
+* op_swap - swaps the top two elements of the stack
+* @stack: pointer to the head of the stack
+* @line_number: number of the current line
+*
+* Return: void
+*/
+void op_swap(stack_t **stack, unsigned int line_number)
+{
+	int tmp = 0;
+
+	if ((*stack) == NULL || (*stack)->next == NULL)
+	{
+		fprintf(stderr, "L%d: can't swap, stack too short\n", line_number);
+		free(var.getl_info);
+		fclose(var.fp_struct);
+		handle_dlist_head((*stack));
+		exit(EXIT_FAILURE);
+	}
+
+	tmp = (*stack)->n;
+	(*stack)->n = (*stack)->next->n;
+	(*stack)->next->n = tmp;
+}
