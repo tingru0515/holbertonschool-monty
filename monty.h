@@ -38,9 +38,35 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+/**
+* struct global_s - functional data for project
+* @n_lines: lines counter
+* @stack_head: stack head
+* @fp_struct: file
+* @getl_info: line content
+* @node_data: data node number
+*
+* Description: opcode and its function
+* for stack, queues, LIFO, FIFO
+*/
+typedef struct global_s
+{
+	FILE *fp_struct;
+	stack_t *stack_head;
+	char *getl_info;
+
+	int node_data;
+	unsigned int n_lines;
+} global_t;
+
+extern global_t var;
+
 void execute_opcode(char *opcode);
 void handle_dlist_head(stack_t *head);
-
+char *split_str(char *str_to_split);
+void is_digit(char *number);
+int line_validator(char *str);
+size_t dlistint_len(stack_t *h);
 void op_push(stack_t **stack, unsigned int line_number);
 void op_pall(stack_t **stack, unsigned int line_number);
 
