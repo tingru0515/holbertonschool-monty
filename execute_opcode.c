@@ -12,6 +12,11 @@ void execute_opcode(char *op_code)
 	instruction_t opcode_func[] = {
 		{"push", op_push},
 		{"pall", op_pall},
+		{"pint", op_pint},
+		{"swap", op_swap},
+		{"pop", op_pop},
+		{"add", op_add},
+		{"nop", op_nop},
 		{NULL, NULL},
 	};
 
