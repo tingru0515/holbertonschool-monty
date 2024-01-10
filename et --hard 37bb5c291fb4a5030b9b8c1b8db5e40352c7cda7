@@ -1,0 +1,84 @@
+[33mcommit 2e8037db51c0366771007c6d1a30fe10ffb5197c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Tue Jan 9 21:33:50 2024 -0800
+
+    monty.h
+
+[33mcommit 2e0adb3f5ce2162a7f6ce0b96e74371141ca8625[m
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Tue Jan 9 21:07:47 2024 -0800
+
+    error handlers & split main
+
+[33mcommit 37bb5c291fb4a5030b9b8c1b8db5e40352c7cda7[m
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Tue Jan 9 18:06:55 2024 -0800
+
+    remove unused file
+
+[33mcommit 4e646468809e1f92e51db4d81091cf4f20101408[m
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Tue Jan 9 16:45:16 2024 -0800
+
+    fix error handling
+
+[33mcommit efa5d3ed3faf4481cd23e10667806bbdd4013059[m
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Tue Jan 9 15:58:33 2024 -0800
+
+    fix typo
+
+[33mcommit 9331ca62464239f4c10d82a0183c1a3671a34b05[m
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Tue Jan 9 14:56:02 2024 -0800
+
+    add nop, pop
+
+[33mcommit 076f0723f50301f8b2c1312704f060bad2baa32d[m
+Merge: e0ec020 4887b77
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Tue Jan 9 14:04:56 2024 -0800
+
+    gergento main branch 'master' into main
+
+[33mcommit 4887b775923e9a9027270e95dae8baca4f43d621[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Mon Jan 8 22:41:37 2024 -0800
+
+    add pint swap
+
+[33mcommit 92c97c678b0514e96e68f29e43ddb40bbaab657f[m
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Mon Jan 8 21:47:43 2024 -0800
+
+    add main.c & split_str.c
+
+[33mcommit 83779a95737f511254ee613ff992f76f161f2117[m
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Mon Jan 8 17:32:10 2024 -0800
+
+    check argument of opcode, check whitespace, get length of a list
+
+[33mcommit fa8d97a5f5fa676f5bd8e121709077d4bf8b86f2[m
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Mon Jan 8 16:30:36 2024 -0800
+
+    add bytecode files
+
+[33mcommit cc17a1863644d674c5934d45760232acd203d0c8[m
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Mon Jan 8 15:39:42 2024 -0800
+
+    add push pall
+
+[33mcommit f0973c63ccf4d59fb0e2fe709ca3373bc09124fb[m
+Author: tingru0515 <7687@holbertonstudents.com>
+Date:   Sun Jan 7 16:51:46 2024 -0800
+
+    add readme license monty.h
+
+[33mcommit e0ec0206259e041566e31f722a52a60862898ba4[m
+Author: tingru0515 <143233574+tingru0515@users.noreply.github.com>
+Date:   Mon Jan 8 11:03:42 2024 +1100
+
+    Create .gitignore
