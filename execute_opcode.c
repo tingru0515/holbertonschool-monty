@@ -29,7 +29,7 @@ void execute_opcode(char *op_code)
 		}
 		i++;
 	}
-	fprintf(stderr, "L%u: unknown instruction %s\n", var.n_lines, op_code);
+	fprintf(stderr, "L%u: unknown instruction %s\n", var.n_lines + 1, op_code);
 	free(var.getl_info);
 	handle_dlist_head(var.stack_head);
 	fclose(var.fp_struct);
