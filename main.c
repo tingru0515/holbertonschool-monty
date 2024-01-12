@@ -26,7 +26,7 @@ int main(int argc, char **argv)
 		fprintf(stderr, "Error: Can't open file %s\n", argv[1]);
 		exit(EXIT_FAILURE);
 	}
-	while (getline(&var.getl_info, &line_buf_size, var.fp_struct) != EOF)
+	while (getline(&var.getl_info, &line_buf_size, var.fp_struct) != -1)
 	{
 		var.n_lines++;
 		if (line_validator(var.getl_info) == 1)
