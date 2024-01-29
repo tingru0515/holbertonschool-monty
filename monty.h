@@ -1,11 +1,12 @@
 #ifndef MONTY_H
 #define MONTY_H
-#define _GNU_SOURCE
 
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 #include <ctype.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <stddef.h>
+#include <stdlib.h>
+#include <string.h>
 #include <unistd.h>
 
 /**
