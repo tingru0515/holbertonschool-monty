@@ -19,7 +19,7 @@ void execute_opcode(char *op_code)
 		{"nop", op_nop},
 		{NULL, NULL},
 	};
-
+	/*printf("Check %s\n", op_code);*/
 	while ((opcode_func[i].opcode != NULL))
 	{
 		if (strcmp(opcode_func[i].opcode, op_code) == 0)
@@ -29,8 +29,8 @@ void execute_opcode(char *op_code)
 		}
 		i++;
 	}
-	fprintf(stderr, "L%u: unknown instruction %s\n", var.n_lines + 1, op_code);
-	free(var.getl_info);
+	fprintf(stderr, "L%u: unknown instruction %s\n", var.n_lines, op_code);
+	/*free(var.getl_info);*/
 	handle_dlist_head(var.stack_head);
 	fclose(var.fp_struct);
 	exit(EXIT_FAILURE);
