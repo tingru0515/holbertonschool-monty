@@ -8,7 +8,7 @@ Written in C programming language with vi and vs code editor.
 ## Table of Contents
 * [Requirements](#requirements)
 * [Installation](#installation)
-* [Authors](#author)
+* [Authors](#authors)
 * [Copyright](#copyright)
 
 ## Requirements
@@ -89,13 +89,13 @@ These are the intructions (i.e. opcodes) that are recognised by this interpreter
 |`add`| adds the top two elements of the stack |
 |`nop`| doesn’t do anything |
 
-## AUTHORS
+## Authors
 To contact the authors of this page and to review the code or submit pull requests, please visit:
 
 - [Yichen Cao](https://github.com/yichehnc)
 - [Tingru Liu](https://github.com/tingru0515)
 
-## COPYRIGHT
+## Copyright
 
 This Monty Bytecode Interpreter was created for educational purposes under the framework and guidance of Holberton School, Melbourne Australia.
 
