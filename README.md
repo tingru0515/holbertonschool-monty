@@ -8,7 +8,7 @@ Written in C programming language with vi and vs code editor.
 ## Table of Contents
 * [Requirements](#requirements)
 * [Installation](#installation)
-* [Author](#author)
+* [Authors](#author)
 * [Copyright](#copyright)
 
 ## Requirements
